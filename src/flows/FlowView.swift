@@ -189,8 +189,7 @@ open class DescopeFlowView: UIView {
         webView.isOpaque = false
         webView.backgroundColor = .clear
         webView.scrollView.keyboardDismissMode = .interactiveWithAccessory
-        webView.scrollView.contentInsetAdjustmentBehavior = .none
-        webView.scrollView.automaticallyAdjustsContentInsets = false
+        webView.scrollView.contentInsetAdjustmentBehavior = .never
         webView.scrollView.isScrollEnabled = false
         webView.scrollView.showsVerticalScrollIndicator = false
         prepareWebView(webView)
