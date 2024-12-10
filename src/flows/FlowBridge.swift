@@ -309,7 +309,7 @@ function \(namespace)_prepare(component) {
           -webkit-box-shadow: none;
           box-shadow: none;
         }
-        descope-container {
+        descope-base-container {
           -webkit-box-shadow: none;
           box-shadow: none;
         }
