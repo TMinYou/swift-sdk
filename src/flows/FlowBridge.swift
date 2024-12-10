@@ -306,6 +306,8 @@ function \(namespace)_prepare(component) {
         * {
           -webkit-touch-callout: none;
           -webkit-user-select: none;
+          -webkit-box-shadow: none;
+          box-shadow: none;
         }
     `
 
