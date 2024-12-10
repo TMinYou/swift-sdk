@@ -309,6 +309,10 @@ function \(namespace)_prepare(component) {
           -webkit-box-shadow: none;
           box-shadow: none;
         }
+        descope-container {
+          -webkit-box-shadow: none;
+          box-shadow: none;
+        }
     `
 
     const stylesheet = document.createElement('style')
