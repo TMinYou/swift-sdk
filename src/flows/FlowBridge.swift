@@ -307,6 +307,10 @@ function \(namespace)_prepare(component) {
           -webkit-touch-callout: none;
           -webkit-user-select: none;
         }
+        .descope-wide-container {
+          width: 100% !important;
+          max-width: 100% !important;
+        }
     `
 
     const stylesheet = document.createElement('style')
